@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div id="result"></div>
+        
+        <div class="containerLastRow">
+            <button onclick="reset()" class="button" id="reset">C</button>
+            <button onclick="back()" class="button"><</button>
+            <button onclick="divisao(this)" class="button" id="division">/</button>
+        </div>
+
+        <div class="containerfourRow">
+            <button onclick="captureValue(this)" class="button">7</button>
+            <button onclick="captureValue(this)" class="button">8</button>
+            <button onclick="captureValue(this)" class="button">9</button>
+            <button onclick="multiplicacao(this)" class="button">x</button>
+        </div>
+
+        <div class="containerThirdRow">
+            <button onclick="captureValue(this)" class="button">4</button>
+            <button onclick="captureValue(this)" class="button">5</button>
+            <button onclick="captureValue(this)" class="button">6</button>
+            <button onclick="subtracao(this)" class="button">-</button>
+        </div>
+
+        <div class="containerSecondRow">
+            <button onclick="captureValue(this)" class="button">1</button>
+            <button onclick="captureValue(this)" class="button">2</button>
+            <button onclick="captureValue(this)" class="button">3</button>
+            <button onclick="adicao(this)" class="button">+</button>
+        </div>
+        
+        <div class="containerFirstRow">
+            <button onclick="captureValue(this)" class="button" id="zero">0</button>
+            <button onclick="result()" class="button" id="equal">=</button>
+        </div>
+        
+    </div>
+</body>
+</html>
